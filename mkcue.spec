@@ -1,7 +1,7 @@
 %define oname mkcue-1
 
 Name:		mkcue
-Version:	1.8
+Version:	2.1
 Release:	1
 License:	LGPL-2.1-or-later
 Group:		Sound/Utilities
@@ -33,7 +33,7 @@ It is a perfect companion for abcde to generate backups of your audio CDs
 using the FLAC codec and the single track option.
 
 %prep
-%setup -q -n %{oname}.orig -a1
+%setup -q -n mkcue-1.orig -a1
 %autopatch -p1
 
 %build
